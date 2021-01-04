@@ -3,7 +3,6 @@
   "version": "0.0.1",
   "private": true,
   "devDependencies": {
-    "@beam-australia/react-env": "^2.1.2",
     "flow-bin": "^0.135.0",
     "react-scripts": "3.4.3",
     "redux-devtools": "^3.7.0"
@@ -26,7 +25,7 @@
     "whatwg-fetch": "^3.4.1"
   },
   "scripts": {
-    "prestart": "react-env",
+    "prestart": "chmod +x ./env.sh && ./env.sh && cp env.js ./public/ ",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
