@@ -31,7 +31,10 @@
     "prestart": "react-env",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "poststart": "react-scripts start"
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "doc": "documentation build src/** -f html -o docs",
+    "flow": "flow"
   },
   "prettier": {
     "trailingComma": "es5",
