@@ -30,7 +30,7 @@
   "scripts": {
     "prestart": "react-env",
     "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
     "poststart": "react-scripts start"
   },
   "prettier": {
